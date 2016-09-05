@@ -89,6 +89,31 @@ namespace BillTracker
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0d0000
+			public const int pref_example_list_titles = 2131558400;
+			
+			// aapt resource value: 0x7f0d0001
+			public const int pref_example_list_values = 2131558401;
+			
+			// aapt resource value: 0x7f0d0002
+			public const int pref_sync_frequency_titles = 2131558402;
+			
+			// aapt resource value: 0x7f0d0003
+			public const int pref_sync_frequency_values = 2131558403;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -1858,8 +1883,8 @@ namespace BillTracker
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0075
-			public const int action0 = 2131361909;
+			// aapt resource value: 0x7f0a007a
+			public const int action0 = 2131361914;
 			
 			// aapt resource value: 0x7f0a005a
 			public const int action_bar = 2131361882;
@@ -1885,8 +1910,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a005b
 			public const int action_context_bar = 2131361883;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int action_divider = 2131361913;
+			// aapt resource value: 0x7f0a007e
+			public const int action_divider = 2131361918;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_divider = 2131361796;
@@ -1921,8 +1946,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0044
 			public const int buttonPanel = 2131361860;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int cancel_action = 2131361910;
+			// aapt resource value: 0x7f0a007b
+			public const int cancel_action = 2131361915;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int center = 2131361812;
@@ -1936,8 +1961,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0052
 			public const int checkbox = 2131361874;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int chronometer = 2131361916;
+			// aapt resource value: 0x7f0a0081
+			public const int chronometer = 2131361921;
 			
 			// aapt resource value: 0x7f0a001d
 			public const int clip_horizontal = 2131361821;
@@ -1951,8 +1976,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a004a
 			public const int contentPanel = 2131361866;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int coordinator = 2131361906;
+			// aapt resource value: 0x7f0a0077
+			public const int coordinator = 2131361911;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int custom = 2131361872;
@@ -1967,22 +1992,28 @@ namespace BillTracker
 			public const int default_activity_button = 2131361856;
 			
 			// aapt resource value: 0x7f0a006a
-			public const int design_bottom_sheet = 2131361898;
-			
-			// aapt resource value: 0x7f0a0071
-			public const int design_menu_item_action_area = 2131361905;
-			
-			// aapt resource value: 0x7f0a0070
-			public const int design_menu_item_action_area_stub = 2131361904;
+			public const int description = 2131361898;
 			
 			// aapt resource value: 0x7f0a006f
-			public const int design_menu_item_text = 2131361903;
+			public const int design_bottom_sheet = 2131361903;
 			
-			// aapt resource value: 0x7f0a006e
-			public const int design_navigation_view = 2131361902;
+			// aapt resource value: 0x7f0a0076
+			public const int design_menu_item_action_area = 2131361910;
+			
+			// aapt resource value: 0x7f0a0075
+			public const int design_menu_item_action_area_stub = 2131361909;
+			
+			// aapt resource value: 0x7f0a0074
+			public const int design_menu_item_text = 2131361908;
+			
+			// aapt resource value: 0x7f0a0073
+			public const int design_navigation_view = 2131361907;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int disableHome = 2131361831;
+			
+			// aapt resource value: 0x7f0a006b
+			public const int due_date_select = 2131361899;
 			
 			// aapt resource value: 0x7f0a005c
 			public const int edit_query = 2131361884;
@@ -1990,8 +2021,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0017
 			public const int end = 2131361815;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int end_padder = 2131361921;
+			// aapt resource value: 0x7f0a0086
+			public const int end_padder = 2131361926;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int enterAlways = 2131361803;
@@ -2008,8 +2039,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0051
 			public const int expanded_menu = 2131361873;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int fab = 2131361908;
+			// aapt resource value: 0x7f0a0079
+			public const int fab = 2131361913;
 			
 			// aapt resource value: 0x7f0a001f
 			public const int fill = 2131361823;
@@ -2038,8 +2069,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a003f
 			public const int image = 2131361855;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int info = 2131361920;
+			// aapt resource value: 0x7f0a0085
+			public const int info = 2131361925;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int item_touch_helper_previous_elevation = 2131361793;
@@ -2047,11 +2078,11 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0019
 			public const int left = 2131361817;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int line1 = 2131361914;
+			// aapt resource value: 0x7f0a007f
+			public const int line1 = 2131361919;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int line3 = 2131361918;
+			// aapt resource value: 0x7f0a0083
+			public const int line3 = 2131361923;
 			
 			// aapt resource value: 0x7f0a0025
 			public const int listMode = 2131361829;
@@ -2059,11 +2090,11 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0041
 			public const int list_item = 2131361857;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int main_toolbar = 2131361907;
-			
 			// aapt resource value: 0x7f0a0078
-			public const int media_actions = 2131361912;
+			public const int main_toolbar = 2131361912;
+			
+			// aapt resource value: 0x7f0a007d
+			public const int media_actions = 2131361917;
 			
 			// aapt resource value: 0x7f0a0034
 			public const int middle = 2131361844;
@@ -2074,8 +2105,11 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a002e
 			public const int multiply = 2131361838;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int navigation_header_container = 2131361901;
+			// aapt resource value: 0x7f0a0069
+			public const int name = 2131361897;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int navigation_header_container = 2131361906;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int never = 2131361848;
@@ -2092,6 +2126,9 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0046
 			public const int parentPanel = 2131361862;
 			
+			// aapt resource value: 0x7f0a006d
+			public const int pay_url = 2131361901;
+			
 			// aapt resource value: 0x7f0a0012
 			public const int pin = 2131361810;
 			
@@ -2103,6 +2140,9 @@ namespace BillTracker
 			
 			// aapt resource value: 0x7f0a0054
 			public const int radio = 2131361876;
+			
+			// aapt resource value: 0x7f0a006c
+			public const int repeating_spinner = 2131361900;
 			
 			// aapt resource value: 0x7f0a001a
 			public const int right = 2131361818;
@@ -2170,11 +2210,11 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a002b
 			public const int showTitle = 2131361835;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int snackbar_action = 2131361900;
+			// aapt resource value: 0x7f0a0071
+			public const int snackbar_action = 2131361905;
 			
-			// aapt resource value: 0x7f0a006b
-			public const int snackbar_text = 2131361899;
+			// aapt resource value: 0x7f0a0070
+			public const int snackbar_text = 2131361904;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int snap = 2131361807;
@@ -2197,8 +2237,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a001b
 			public const int start = 2131361819;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int status_bar_latest_event_content = 2131361911;
+			// aapt resource value: 0x7f0a007c
+			public const int status_bar_latest_event_content = 2131361916;
 			
 			// aapt resource value: 0x7f0a0065
 			public const int submit_area = 2131361893;
@@ -2206,17 +2246,17 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0026
 			public const int tabMode = 2131361830;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int text = 2131361919;
+			// aapt resource value: 0x7f0a0084
+			public const int text = 2131361924;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int text2 = 2131361917;
+			// aapt resource value: 0x7f0a0082
+			public const int text2 = 2131361922;
 			
 			// aapt resource value: 0x7f0a004d
 			public const int textSpacerNoButtons = 2131361869;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int time = 2131361915;
+			// aapt resource value: 0x7f0a0080
+			public const int time = 2131361920;
 			
 			// aapt resource value: 0x7f0a0043
 			public const int title = 2131361859;
@@ -2230,8 +2270,8 @@ namespace BillTracker
 			// aapt resource value: 0x7f0a0047
 			public const int topPanel = 2131361863;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int touch_outside = 2131361897;
+			// aapt resource value: 0x7f0a006e
+			public const int touch_outside = 2131361902;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int up = 2131361802;
@@ -2371,82 +2411,85 @@ namespace BillTracker
 			public const int abc_select_dialog_material = 2130968600;
 			
 			// aapt resource value: 0x7f040019
-			public const int design_bottom_sheet_dialog = 2130968601;
+			public const int AddOrEditBillActivity = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int design_layout_snackbar = 2130968602;
+			public const int design_bottom_sheet_dialog = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_layout_snackbar_include = 2130968603;
+			public const int design_layout_snackbar = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_layout_tab_icon = 2130968604;
+			public const int design_layout_snackbar_include = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_tab_text = 2130968605;
+			public const int design_layout_tab_icon = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_menu_item_action_area = 2130968606;
+			public const int design_layout_tab_text = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_navigation_item = 2130968607;
+			public const int design_menu_item_action_area = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_navigation_item_header = 2130968608;
+			public const int design_navigation_item = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_navigation_item_separator = 2130968609;
+			public const int design_navigation_item_header = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item_subheader = 2130968610;
+			public const int design_navigation_item_separator = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_menu = 2130968611;
+			public const int design_navigation_item_subheader = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_menu_item = 2130968612;
+			public const int design_navigation_menu = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int Main = 2130968613;
+			public const int design_navigation_menu_item = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int MainContent = 2130968614;
+			public const int Main = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int notification_media_action = 2130968615;
+			public const int MainContent = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_media_cancel_action = 2130968616;
+			public const int notification_media_action = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_template_big_media = 2130968617;
+			public const int notification_media_cancel_action = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_template_big_media_narrow = 2130968618;
+			public const int notification_template_big_media = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_lines = 2130968619;
+			public const int notification_template_big_media_narrow = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_media = 2130968620;
+			public const int notification_template_lines = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_part_chronometer = 2130968621;
+			public const int notification_template_media = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_part_time = 2130968622;
+			public const int notification_template_part_chronometer = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int select_dialog_item_material = 2130968623;
+			public const int notification_template_part_time = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int select_dialog_multichoice_material = 2130968624;
+			public const int select_dialog_item_material = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int select_dialog_singlechoice_material = 2130968625;
+			public const int select_dialog_multichoice_material = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int support_simple_spinner_dropdown_item = 2130968626;
+			public const int select_dialog_singlechoice_material = 2130968626;
+			
+			// aapt resource value: 0x7f040033
+			public const int support_simple_spinner_dropdown_item = 2130968627;
 			
 			static Layout()
 			{
@@ -2535,22 +2578,196 @@ namespace BillTracker
 			public const int abc_toolbar_collapse_description = 2131427349;
 			
 			// aapt resource value: 0x7f0b0018
-			public const int app_name = 2131427352;
+			public const int action_settings = 2131427352;
+			
+			// aapt resource value: 0x7f0b0017
+			public const int app_name = 2131427351;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int appbar_scrolling_view_behavior = 2131427328;
 			
+			// aapt resource value: 0x7f0b004f
+			public const int banner_ad_unit_id = 2131427407;
+			
 			// aapt resource value: 0x7f0b0001
 			public const int bottom_sheet_behavior = 2131427329;
+			
+			// aapt resource value: 0x7f0b002e
+			public const int cancel = 2131427374;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int character_counter_pattern = 2131427330;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int hello = 2131427351;
+			// aapt resource value: 0x7f0b002b
+			public const int confirm_delete = 2131427371;
+			
+			// aapt resource value: 0x7f0b0050
+			public const int day = 2131427408;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int day_ago = 2131427386;
+			
+			// aapt resource value: 0x7f0b0024
+			public const int days = 2131427364;
+			
+			// aapt resource value: 0x7f0b0039
+			public const int days_ago = 2131427385;
+			
+			// aapt resource value: 0x7f0b002a
+			public const int delete_bill = 2131427370;
+			
+			// aapt resource value: 0x7f0b002c
+			public const int deletion_message = 2131427372;
+			
+			// aapt resource value: 0x7f0b0021
+			public const int description = 2131427361;
+			
+			// aapt resource value: 0x7f0b0038
+			public const int due = 2131427384;
+			
+			// aapt resource value: 0x7f0b001f
+			public const int due_date = 2131427359;
+			
+			// aapt resource value: 0x7f0b0023
+			public const int due_in = 2131427363;
+			
+			// aapt resource value: 0x7f0b001c
+			public const int edit = 2131427356;
+			
+			// aapt resource value: 0x7f0b0051
+			public const int internal_preference_file_key = 2131427409;
+			
+			// aapt resource value: 0x7f0b004a
+			public const int led = 2131427402;
+			
+			// aapt resource value: 0x7f0b0022
+			public const int name = 2131427362;
+			
+			// aapt resource value: 0x7f0b004c
+			public const int next_due_date_view_bill = 2131427404;
+			
+			// aapt resource value: 0x7f0b0029
+			public const int no_bills_tap_to_add = 2131427369;
+			
+			// aapt resource value: 0x7f0b0027
+			public const int notification_action_paid = 2131427367;
+			
+			// aapt resource value: 0x7f0b0025
+			public const int notification_due = 2131427365;
+			
+			// aapt resource value: 0x7f0b0026
+			public const int notification_summary_title = 2131427366;
+			
+			// aapt resource value: 0x7f0b0049
+			public const int notifications = 2131427401;
+			
+			// aapt resource value: 0x7f0b0035
+			public const int pay = 2131427381;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int pref_default_display_name = 2131427391;
+			
+			// aapt resource value: 0x7f0b003d
+			public const int pref_description_social_recommendations = 2131427389;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int pref_header_data_sync = 2131427393;
+			
+			// aapt resource value: 0x7f0b003b
+			public const int pref_header_general = 2131427387;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int pref_header_notifications = 2131427396;
+			
+			// aapt resource value: 0x7f0b0047
+			public const int pref_ringtone_silent = 2131427399;
+			
+			// aapt resource value: 0x7f0b0040
+			public const int pref_title_add_friends_to_messages = 2131427392;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int pref_title_display_name = 2131427390;
+			
+			// aapt resource value: 0x7f0b0045
+			public const int pref_title_new_message_notifications = 2131427397;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int pref_title_ringtone = 2131427398;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int pref_title_social_recommendations = 2131427388;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int pref_title_sync_frequency = 2131427394;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int pref_title_system_sync_settings = 2131427395;
+			
+			// aapt resource value: 0x7f0b0048
+			public const int pref_title_vibrate = 2131427400;
+			
+			// aapt resource value: 0x7f0b001e
+			public const int repeating = 2131427358;
+			
+			// aapt resource value: 0x7f0b0033
+			public const int repeating_item_bi_yearly = 2131427379;
+			
+			// aapt resource value: 0x7f0b0030
+			public const int repeating_item_daily = 2131427376;
+			
+			// aapt resource value: 0x7f0b0032
+			public const int repeating_item_monthly = 2131427378;
+			
+			// aapt resource value: 0x7f0b002f
+			public const int repeating_item_never = 2131427375;
+			
+			// aapt resource value: 0x7f0b0031
+			public const int repeating_item_weekly = 2131427377;
+			
+			// aapt resource value: 0x7f0b0034
+			public const int repeating_item_yearly = 2131427380;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int repeats_view_bill = 2131427403;
+			
+			// aapt resource value: 0x7f0b001d
+			public const int save = 2131427357;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int snackbar_bill_paid = 2131427353;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int status_bar_notification_info_overflow = 2131427350;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int tap_to_add_bill = 2131427368;
+			
+			// aapt resource value: 0x7f0b0020
+			public const int tap_to_select_due_date = 2131427360;
+			
+			// aapt resource value: 0x7f0b004d
+			public const int title_activity_jmain = 2131427405;
+			
+			// aapt resource value: 0x7f0b004e
+			public const int title_activity_jsettings = 2131427406;
+			
+			// aapt resource value: 0x7f0b0037
+			public const int title_activity_settings = 2131427383;
+			
+			// aapt resource value: 0x7f0b001a
+			public const int undo = 2131427354;
+			
+			// aapt resource value: 0x7f0b0036
+			public const int url_to_pay_bill = 2131427382;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int user_token = 2131427410;
+			
+			// aapt resource value: 0x7f0b001b
+			public const int view_bill_error_loading = 2131427355;
+			
+			// aapt resource value: 0x7f0b002d
+			public const int yes = 2131427373;
 			
 			static String()
 			{
