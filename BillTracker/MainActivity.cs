@@ -23,6 +23,7 @@ namespace BillTracker
 			fab.Click += delegate {
 				StartActivity(typeof(AddOrEditBillActivity));
 			};
+
 		}
 	}
 }
