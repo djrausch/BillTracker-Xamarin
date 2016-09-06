@@ -11,4 +11,8 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Realm\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Util\" />
+  </ItemGroup>
 </Project>
