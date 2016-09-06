@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Realms;
 
 namespace Core
@@ -15,7 +16,7 @@ namespace Core
 		public int repeatingType { get; set; } = 0;
 		public DateTimeOffset dueDate { get; set; }
 		public String payUrl { get; set; }
-		public RealmList<BillPaid> paidDates { get; set; }
+		public IList<BillPaid> paidDates { get; }
 		public Boolean deleted { get; set; } = false;
 	}
 }
