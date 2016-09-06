@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -11,10 +11,10 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Realm\Objects\Bill.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Realm\Objects\BillPaid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\RepeatingItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Realm\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Util\" />
     <Folder Include="$(MSBuildThisFileDirectory)Realm\Objects\" />
   </ItemGroup>
 </Project>

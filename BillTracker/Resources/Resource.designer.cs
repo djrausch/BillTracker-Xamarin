@@ -1967,6 +1967,12 @@ namespace BillTracker
 			// aapt resource value: 0x7f070085
 			public const int action_divider = 2131165317;
 			
+			// aapt resource value: 0x7f070092
+			public const int action_edit = 2131165330;
+			
+			// aapt resource value: 0x7f070091
+			public const int action_login = 2131165329;
+			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
 			
@@ -1981,6 +1987,12 @@ namespace BillTracker
 			
 			// aapt resource value: 0x7f07003c
 			public const int action_mode_close_button = 2131165244;
+			
+			// aapt resource value: 0x7f07008e
+			public const int action_save = 2131165326;
+			
+			// aapt resource value: 0x7f070090
+			public const int action_settings = 2131165328;
 			
 			// aapt resource value: 0x7f07003d
 			public const int activity_chooser_view_content = 2131165245;
@@ -2047,6 +2059,9 @@ namespace BillTracker
 			
 			// aapt resource value: 0x7f070040
 			public const int default_activity_button = 2131165248;
+			
+			// aapt resource value: 0x7f07008f
+			public const int delete_bill = 2131165327;
 			
 			// aapt resource value: 0x7f07006a
 			public const int description = 2131165290;
@@ -2575,6 +2590,31 @@ namespace BillTracker
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int AddMenu = 2131623936;
+			
+			// aapt resource value: 0x7f0e0001
+			public const int EditMenu = 2131623937;
+			
+			// aapt resource value: 0x7f0e0002
+			public const int MainMenu = 2131623938;
+			
+			// aapt resource value: 0x7f0e0003
+			public const int ViewBill = 2131623939;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
