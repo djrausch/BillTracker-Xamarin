@@ -9,6 +9,7 @@ namespace BillTracker
 
 	public class MainViewHolder : RecyclerView.ViewHolder
 	{
+        public CardView card { get; set; }
 		public TextView Name { get; set; }
 		public TextView DueInDays { get; set;}
 		public TextView DueDate { get; set;}
